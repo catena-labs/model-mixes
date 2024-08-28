@@ -21,6 +21,6 @@
     "strict": true,
     "target": "ESNext"
   },
-  "include": ["src", "vitest.config.ts", "globals.d.ts"],
-  "exclude": ["node_modules"]
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "dist"]
 }

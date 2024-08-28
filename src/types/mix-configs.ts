@@ -1,4 +1,4 @@
-import { RouterConfig } from "./router-configs"
+import type { RouterConfig } from "./router-configs"
 
 export interface BaseMixConfig {
   /**

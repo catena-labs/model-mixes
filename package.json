@@ -4,12 +4,14 @@
   "author": "Catena Labs <dev@catena.xyz>",
   "license": "MIT",
   "type": "module",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "tsup ./src/index.ts",
     "check": "pnpm format:check && pnpm lint && pnpm type-check && pnpm test",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "eslint .",
+    "prepublishOnly": "pnpm build",
     "test": "vitest",
     "type-check": "tsc --noEmit --pretty"
   },
@@ -22,6 +24,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
     "prettier": "^3.3.3",
+    "tsup": "^8.2.4",
     "typescript": "^5.5.4",
     "typescript-eslint": "^8.3.0",
     "vitest": "^2.0.5"

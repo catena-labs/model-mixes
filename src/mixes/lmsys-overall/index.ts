@@ -1,5 +1,5 @@
 import type { MixConfig } from "../../types/mix-configs"
-import * as readmeContent from "./README.md"
+import readmeContent from "./README.md"
 
 /**
  * https://chat.lmsys.org/?leaderboard
