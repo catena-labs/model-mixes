@@ -1,0 +1,14 @@
+{
+  "name": "crosshatch-mixes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Catena Labs <dev@catena.xyz>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5"
+  }
+}
