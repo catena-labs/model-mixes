@@ -37,7 +37,7 @@ export const lmsysOverall: MixConfig = {
   createdAt: new Date("2024-08-13T13:00:00-04:00"),
   description: "Top 'Overall' models on the LMSys Leaderboard",
   externalDocsUrl:
-    "https://github.com/catena-labs/crosshatch-mixes/tree/mixes/lmsys-overall",
+    "https://github.com/catena-labs/crosshatch-mixes/tree/main/src/mixes/lmsys-overall",
   name: "LMSys Overall Leaderboard",
   readmeContent: readmeContent,
   slug: "lmsys-overall",

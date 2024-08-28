@@ -40,7 +40,7 @@ export const lmsysCoding: MixConfig = {
   createdAt: new Date("2024-08-13T13:00:00-04:00"),
   description: "Top 'Coding' models on the LMSys Leaderboard",
   externalDocsUrl:
-    "https://github.com/catena-labs/crosshatch-mixes/tree/mixes/lmsys-overall",
+    "https://github.com/catena-labs/crosshatch-mixes/tree/main/src/mixes/lmsys-coding",
   name: "LMSys Coding Leaderboard",
   readmeContent,
   slug: "lmsys-coding",
