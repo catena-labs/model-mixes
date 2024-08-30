@@ -1,48 +1,36 @@
-import type { MixConfig } from "../../types/mix-configs"
-import readmeContent from "./README.md"
-/**
- * https://chat.lmsys.org/?leaderboard
- */
-export const lmsysCoding: MixConfig = {
+import type { ModelMixDefinition } from "../../types/mix-configs"
+import readme from "./README.md"
+
+export const lmsysCoding: ModelMixDefinition = {
   config: {
     routes: [
       {
+        model: "chatgpt-4o-latest",
+        weight: 0.63
+      },
+      {
         model: "claude-3-5-sonnet-20240620",
-        provider: "anthropic",
-        weight: 1299 / (1299 + 1295 + 1283 + 1274 + 1273 + 1268)
+        weight: 0.87
       },
       {
         model: "gpt-4o-2024-05-13",
-        provider: "openai",
-        weight: 1295 / (1299 + 1295 + 1283 + 1274 + 1273 + 1268)
+        weight: 1.0
       },
       {
-        model: "gpt-4o-mini-2024-07-18",
-        provider: "openai",
-        weight: 1283 / (1299 + 1295 + 1283 + 1274 + 1273 + 1268)
-      },
-      {
-        model: "gemini-pro",
-        provider: "google",
-        weight: 1274 / (1299 + 1295 + 1283 + 1274 + 1273 + 1268)
-      },
-      {
-        model: "meta-llama/Meta-Llama-3.1-405B-Instruct",
-        weight: 1273 / (1299 + 1295 + 1283 + 1274 + 1273 + 1268)
-      },
-      {
-        model: "mistralai/large-2",
-        weight: 1268 / (1299 + 1295 + 1283 + 1274 + 1273 + 1268)
+        model: "gemini-1.5-pro-exp-0827",
+        weight: 0.57
       }
     ],
     strategy: "weighted"
   },
-  createdAt: new Date("2024-08-13T13:00:00-04:00"),
-  description: "Top 'Coding' models on the LMSys Leaderboard",
-  externalDocsUrl:
-    "https://github.com/catena-labs/crosshatch-mixes/tree/main/src/mixes/lmsys-coding",
+
+  createdAt: new Date("2024-08-13T13:00:00-04:00"), // August 13, 2024 1pm Eastern
+  description:
+    "A mix indexed on the top coding models in the LMSYS leaderboard. Models with a higher score and more consistent votes will be selected more often.",
+  docsUrl:
+    "https://github.com/catena-labs/model-mixes/tree/main/src/mixes/lmsys-coding",
   name: "LMSys Coding Leaderboard",
-  readmeContent,
+  readme,
   slug: "lmsys-coding",
   type: "index"
 }

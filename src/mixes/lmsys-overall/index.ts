@@ -1,31 +1,28 @@
-import type { MixConfig } from "../../types/mix-configs"
-import readmeContent from "./README.md"
+import type { ModelMixDefinition } from "../../types/mix-configs"
+import readme from "./README.md"
 
-/**
- * https://chat.lmsys.org/?leaderboard
- */
-export const lmsysOverall: MixConfig = {
+export const lmsysOverall: ModelMixDefinition = {
   config: {
     routes: [
       {
-        model: "gemini-pro",
+        model: "chatgpt-4o-latest",
+        provider: "openai",
+        weight: 0.7
+      },
+      {
+        model: "gemini-1.5-pro-exp-0827",
         provider: "google",
-        weight: 1299 / (1299 + 1286 + 1277 + 1271 + 1264)
+        weight: 0.65
+      },
+      {
+        model: "gemini-1.5-pro-exp-0801",
+        provider: "google",
+        weight: 0.73
       },
       {
         model: "gpt-4o-2024-05-13",
         provider: "openai",
-        weight: 1286 / (1299 + 1286 + 1277 + 1271 + 1264)
-      },
-      {
-        model: "gpt-4o-mini-2024-07-18",
-        provider: "openai",
-        weight: 1277 / (1299 + 1286 + 1277 + 1271 + 1264)
-      },
-      {
-        model: "claude-3-5-sonnet-20240620",
-        provider: "anthropic",
-        weight: 1271 / (1299 + 1286 + 1277 + 1271 + 1264)
+        weight: 1
       },
       {
         model: "meta-llama/Meta-Llama-3.1-405B-Instruct",
@@ -34,12 +31,14 @@ export const lmsysOverall: MixConfig = {
     ],
     strategy: "weighted"
   },
-  createdAt: new Date("2024-08-13T13:00:00-04:00"),
-  description: "Top 'Overall' models on the LMSys Leaderboard",
-  externalDocsUrl:
-    "https://github.com/catena-labs/crosshatch-mixes/tree/main/src/mixes/lmsys-overall",
+
+  createdAt: new Date("2024-08-13T13:00:00-04:00"), // August 13, 2024 1pm Eastern
+  description:
+    "A mix indexed on the top models in the LMSYS leaderboard. Models with a higher score and more consistent votes will be selected more often.",
+  docsUrl:
+    "https://github.com/catena-labs/model-mixes/tree/main/src/mixes/lmsys-overall",
   name: "LMSys Overall Leaderboard",
-  readmeContent: readmeContent,
+  readme,
   slug: "lmsys-overall",
   type: "index"
 }

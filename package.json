@@ -1,6 +1,6 @@
 {
-  "name": "crosshatch-mixes",
-  "version": "1.0.0",
+  "name": "model-mixes",
+  "version": "0.0.1",
   "author": "Catena Labs <dev@catena.xyz>",
   "license": "MIT",
   "type": "module",

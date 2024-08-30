@@ -1,9 +1,8 @@
 import type { RouterConfig } from "./router-configs"
 
-export interface BaseMixConfig {
+export interface BaseModelMixDefinition {
   /**
-   * The slug for the mix (lower, kebab-case), used as the `model` field in API
-   * requests
+   * The slug for the mix. Used as the `model` field in API requests
    */
   slug: string
   /**
@@ -13,7 +12,7 @@ export interface BaseMixConfig {
   /**
    * A short description for the mix
    */
-  description: string
+  description?: string
   /**
    * When this version of the mix was created
    */
@@ -21,20 +20,20 @@ export interface BaseMixConfig {
   /**
    * External documentation link
    */
-  externalDocsUrl?: string
+  docsUrl?: string
   /**
    * The readme content for the mix
    */
-  readmeContent?: string
+  readme?: string
 }
 
-export interface IndexMixConfig extends BaseMixConfig {
+export interface IndexModelMixDefinition extends BaseModelMixDefinition {
   type: "index"
   config: RouterConfig
 }
 
-export interface MoaMixConfig extends BaseMixConfig {
+export interface MoaModelMixDefinition extends BaseModelMixDefinition {
   type: "moa"
 }
 
-export type MixConfig = IndexMixConfig | MoaMixConfig
+export type ModelMixDefinition = IndexModelMixDefinition | MoaModelMixDefinition
