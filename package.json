@@ -1,10 +1,11 @@
 {
   "name": "model-mixes",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Catena Labs <dev@catena.xyz>",
   "license": "MIT",
   "type": "module",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup ./src/index.ts",
     "check": "pnpm format:check && pnpm lint && pnpm type-check && pnpm test",
