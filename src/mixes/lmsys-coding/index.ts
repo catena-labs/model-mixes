@@ -1,7 +1,7 @@
-import type { ModelMixDefinition } from "../../types/mix-configs"
+import type { IndexModelMixDefinition } from "../../types/mix-configs"
 import readme from "./README.md"
 
-export const lmsysCoding: ModelMixDefinition = {
+export const lmsysCoding: IndexModelMixDefinition = {
   config: {
     routes: [
       {
