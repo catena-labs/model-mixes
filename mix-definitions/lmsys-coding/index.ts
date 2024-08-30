@@ -1,7 +1,7 @@
-import type { IndexModelMixDefinition } from "../../types/mix-configs"
+import type { IndexModelMixDefinition } from "../types"
 import readme from "./README.md"
 
-export const lmsysCoding: IndexModelMixDefinition = {
+export default {
   config: {
     routes: [
       {
@@ -23,7 +23,11 @@ export const lmsysCoding: IndexModelMixDefinition = {
     ],
     strategy: "weighted"
   },
-
+  cost: {
+    inputCostPerUnit: 0.0000042395,
+    outputCostPerUnit: 0.0000144446,
+    unit: "token"
+  },
   createdAt: new Date("2024-08-13T13:00:00-04:00"), // August 13, 2024 1pm Eastern
   description:
     "A mix indexed on the top coding models in the LMSYS leaderboard. Models with a higher score and more consistent votes will be selected more often.",
@@ -33,4 +37,4 @@ export const lmsysCoding: IndexModelMixDefinition = {
   readme,
   slug: "lmsys-coding",
   type: "index"
-}
+} satisfies IndexModelMixDefinition

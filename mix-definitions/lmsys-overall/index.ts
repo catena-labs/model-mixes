@@ -1,7 +1,7 @@
-import type { IndexModelMixDefinition } from "../../types/mix-configs"
+import type { IndexModelMixDefinition } from "../types"
 import readme from "./README.md"
 
-export const lmsysOverall: IndexModelMixDefinition = {
+export default {
   config: {
     routes: [
       {
@@ -23,15 +23,15 @@ export const lmsysOverall: IndexModelMixDefinition = {
         model: "gpt-4o-2024-05-13",
         provider: "openai",
         weight: 1
-      },
-      {
-        model: "meta-llama/Meta-Llama-3.1-405B-Instruct",
-        weight: 1264 / (1299 + 1286 + 1277 + 1271 + 1264)
       }
     ],
     strategy: "weighted"
   },
-
+  cost: {
+    inputCostPerUnit: 0.0000044173,
+    outputCostPerUnit: 0.000013252,
+    unit: "token"
+  },
   createdAt: new Date("2024-08-13T13:00:00-04:00"), // August 13, 2024 1pm Eastern
   description:
     "A mix indexed on the top models in the LMSYS leaderboard. Models with a higher score and more consistent votes will be selected more often.",
@@ -41,4 +41,4 @@ export const lmsysOverall: IndexModelMixDefinition = {
   readme,
   slug: "lmsys-overall",
   type: "index"
-}
+} satisfies IndexModelMixDefinition

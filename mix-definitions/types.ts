@@ -1,6 +1,25 @@
-import type { RouterConfig } from "./router-configs"
+interface BaseRoute {
+  model: string
+  provider?: string
+}
 
-export interface BaseModelMixDefinition {
+interface WeightedRoute extends BaseRoute {
+  weight: number
+}
+
+interface WeightedRouterConfig {
+  strategy: "weighted"
+  routes: WeightedRoute[]
+}
+
+interface FailoverRouterConfig {
+  strategy: "failover"
+  routes: BaseRoute[]
+}
+
+type RouterConfig = WeightedRouterConfig | FailoverRouterConfig
+
+interface BaseModelMixDefinition {
   /**
    * The slug for the mix. Used as the `model` field in API requests
    */
@@ -25,6 +44,14 @@ export interface BaseModelMixDefinition {
    * The readme content for the mix
    */
   readme?: string
+  /**
+   * The cost of the model on Crosshatch
+   */
+  cost: {
+    inputCostPerUnit: number
+    outputCostPerUnit: number
+    unit: "token"
+  }
 }
 
 export interface IndexModelMixDefinition extends BaseModelMixDefinition {

@@ -1,7 +1,7 @@
-import type { IndexModelMixDefinition } from "../../types/mix-configs"
+import type { IndexModelMixDefinition } from "../types"
 import readme from "./README.md"
 
-export const sealSpanish: IndexModelMixDefinition = {
+export default {
   config: {
     routes: [
       {
@@ -19,7 +19,11 @@ export const sealSpanish: IndexModelMixDefinition = {
     ],
     strategy: "weighted"
   },
-
+  cost: {
+    inputCostPerUnit: 0.00000612023242,
+    outputCostPerUnit: 0.00001836069726,
+    unit: "token"
+  },
   createdAt: new Date("2024-08-13T13:00:00-04:00"),
   description:
     "A mix that picks the highest-ranked model for Spanish prompts, based on Scale's Multilingual Prompts Dataset aimed at measuring a model's proficiency in engaging with Spanish users from Spain, Mexico and the rest of Latin America, reflecting complexity of global communication.", // August 13, 2024 1pm Eastern
@@ -29,4 +33,4 @@ export const sealSpanish: IndexModelMixDefinition = {
   readme,
   slug: "seal-spanish",
   type: "index"
-}
+} satisfies IndexModelMixDefinition

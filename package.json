@@ -7,13 +7,13 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsup ./src/index.ts",
+    "build": "pnpm clean && tsup ./mix-definitions/index.ts",
     "check": "pnpm format:check && pnpm lint && pnpm type-check && pnpm test",
     "clean": "git clean -xdf dist",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "eslint .",
-    "prepublishOnly": "pnpm build",
+    "prepublishOnly": "pnpm check && pnpm build",
     "test": "vitest",
     "type-check": "tsc --noEmit --pretty"
   },
