@@ -9,3 +9,5 @@ export const modelMixes = {
   moaCoding,
   sealSpanish
 }
+
+export * from "./types/mix-configs"
