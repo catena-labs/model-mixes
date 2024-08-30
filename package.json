@@ -1,6 +1,6 @@
 {
   "name": "model-mixes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Catena Labs <dev@catena.xyz>",
   "license": "MIT",
   "type": "module",
@@ -8,6 +8,7 @@
   "scripts": {
     "build": "tsup ./src/index.ts",
     "check": "pnpm format:check && pnpm lint && pnpm type-check && pnpm test",
+    "clean": "git clean -xdf dist",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "eslint .",
