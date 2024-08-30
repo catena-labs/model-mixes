@@ -4,10 +4,10 @@ The Model Mix definitions used by [Crosshatch](https://crosshatch.app)
 
 ## Model Mixes
 
-- [LMSys Coding Leaderboard Mix](./model-mixes/lmsys-coding)
-- [LMSys Overall Leaderboard Mix](./model-mixes/lmsys-overall)
-- [SynthCode Mix](./model-mixes/moa-coding)
-- [SEAL Spanish Mix](./model-mixes/seal-spanish)
+- [LMSys Coding Leaderboard Mix](./mix-definitions/lmsys-coding)
+- [LMSys Overall Leaderboard Mix](./mix-definitions/lmsys-overall)
+- [SynthCode Mix](./mix-definitions/moa-coding)
+- [SEAL Spanish Mix](./mix-definitions/seal-spanish)
 
 ---
 
