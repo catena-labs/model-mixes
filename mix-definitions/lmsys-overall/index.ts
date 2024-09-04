@@ -1,3 +1,4 @@
+import { getDocsUrl } from "../../utils/docs-url"
 import type { IndexModelMixDefinition } from "../types"
 import readme from "./README.md"
 
@@ -35,8 +36,7 @@ export default {
   createdAt: new Date("2024-08-13T13:00:00-04:00"), // August 13, 2024 1pm Eastern
   description:
     "A mix indexed on the top models in the LMSYS leaderboard. Models with a higher score and more consistent votes will be selected more often.",
-  docsUrl:
-    "https://github.com/catena-labs/model-mixes/tree/main/src/mixes/lmsys-overall",
+  docsUrl: getDocsUrl("lmsys-overall"),
   name: "LMSys Overall Leaderboard",
   readme,
   slug: "lmsys-overall",
