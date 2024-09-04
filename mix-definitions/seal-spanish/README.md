@@ -1,5 +1,3 @@
-# SEAL Spanish Mix
-
 This mix is based on the top models ranked for Spanish by Scale.ai's SEAL leaderboard. The weight is a function of the Elo score.
 
 The evaluation process involves assessing model responses across three main dimensions: honesty (understanding and consistency), accuracy (correctness of claims), and helpfulness (instruction following and writing quality). Models are paired against each other and evaluated on these criteria, with a focus on instruction following abilities.

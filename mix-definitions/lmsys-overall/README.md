@@ -1,5 +1,3 @@
-# LMSys Overall Leaderboard Mix
-
 This mix is based on the top coding models ranked in the LMSys Chatbot Arena for the Overall category. The weight is a function of the Elo score adjusted for number of votes and variance. Models with more consistently high votes will be weighed more heavily.
 
 ## Composition
