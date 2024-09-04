@@ -1,4 +1,3 @@
-
 /**
  * Get the docs URL for a given mix slug.
  *
