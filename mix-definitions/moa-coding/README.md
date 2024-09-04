@@ -14,8 +14,8 @@ This model may take longer to produce a response due to the multiple sub-request
 
 This mix produces responses from the following models:
 
-## | Model Name | Type |
-
-| Claude 3.5 Sonnet | Proposer |
-| GPT-4 Turbo | Proposer |
-| GPT-4o | Aggregator |
+| Model Name        | Type       |
+| ----------------- | ---------- |
+| Claude 3.5 Sonnet | Proposer   |
+| GPT-4 Turbo       | Proposer   |
+| GPT-4o            | Aggregator |
