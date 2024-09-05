@@ -13,4 +13,4 @@ This mix produces responses from the following models:
 | gpt-4o-2024-05-13          | 30.58%   |
 | gemini-1.5-pro-exp-0827    | 20.49%   |
 
-Update Frequency: Based on LMSys
+Update Frequency: Based on LMSys (every few weeks)

@@ -10,10 +10,10 @@ The top-performing models in the Spanish leaderboard are GPT-4o in first place, 
 
 This mix produces responses from the following models:
 
-| Model Name            | Weight % |
-| --------------------- | -------- |
-|  gpt-4o               | 22.51%   |
-|  gemini-1.5-pro       | 21.54%   |
-|  gpt-4-turbo-preview  | 23.79%   |
+| Model Name          | Weight % |
+| ------------------- | -------- |
+| gpt-4o              | 22.51%   |
+| gemini-1.5-pro      | 21.54%   |
+| gpt-4-turbo-preview | 23.79%   |
 
 Last updated: est. May 2024
