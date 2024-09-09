@@ -10,9 +10,9 @@ export default {
   },
   createdAt: new Date("2024-08-26T13:00:00-04:00"), // August 26, 2024 1pm Eastern
   description:
-    "A mixture-of-agents that synthesizes coding answers from the best LLMs for state-of-the-art performance.",
+    "A custom-built Mixture-of-Agents (MoA) synthesis mix optimized for challenging coding tasks. This mix leverages multiple 'proposer' models, including Claude 3.5 Sonnet and GPT-4 Turbo, with an 'aggregation' model that synthesizes their outputs. In benchmarks, it demonstrated 28% better performance compared to Claude 3.5 Sonnet alone, particularly excelling at complex programming challenges.",
   docsUrl: getDocsUrl("moa-coding"),
-  name: "MoA SynthCode Mix",
+  name: "Coding Mixture of Agents",
   readme,
   slug: "moa-coding",
   type: "moa"
