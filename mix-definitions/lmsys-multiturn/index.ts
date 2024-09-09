@@ -37,7 +37,7 @@ export default {
   description:
     "Optimized for extended conversations, this mix utilizes top-performing models in multi-turn interactions. It leverages the LMSys Chatbot Arena rankings for conversations with two or more turns, ensuring high-quality responses in longer dialogues.",
   docsUrl: getDocsUrl("lmsys-multiturn"),
-  name: "Top Multiturn Models",
+  name: "Top Chat Models",
   readme,
   slug: "lmsys-multiturn",
   type: "index"
