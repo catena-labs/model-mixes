@@ -1,3 +1,5 @@
+type Category = "general" | "coding"
+
 interface BaseRoute {
   model: string
   provider?: string
@@ -32,6 +34,10 @@ interface BaseModelMixDefinition {
    * A short description for the mix
    */
   description?: string
+  /**
+   * A list of categories that apply to this model
+   */
+  categories: Category[]
   /**
    * When this version of the mix was created
    */
