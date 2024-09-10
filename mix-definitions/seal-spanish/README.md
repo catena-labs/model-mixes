@@ -1,4 +1,4 @@
-# SEAL Spanish Mix
+## Spanish Mix (Scale.ai Leaderboard)
 
 This mix is based on the top models ranked for Spanish by Scale.ai's SEAL leaderboard. The weight is a function of the Elo score.
 
@@ -17,3 +17,4 @@ This mix produces responses from the following models:
 | gpt-4-turbo-preview | 23.79%   |
 
 Last updated: est. May 2024
+Source: https://scale.com/leaderboard/spanish

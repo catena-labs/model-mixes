@@ -7,35 +7,31 @@ export default {
     routes: [
       {
         model: "chatgpt-4o-latest",
-        provider: "openai",
-        weight: 0.7
+        weight: 0.4934
       },
       {
         model: "gemini-1.5-pro-exp-0827",
-        provider: "google",
-        weight: 0.65
+        weight: 0.1975
       },
       {
         model: "gemini-1.5-pro-exp-0801",
-        provider: "google",
-        weight: 0.73
+        weight: 0.1459
       },
       {
         model: "gpt-4o-2024-05-13",
-        provider: "openai",
-        weight: 1
+        weight: 0.1183
       }
     ],
     strategy: "weighted"
   },
   cost: {
-    inputCostPerUnit: 0.0000044173,
-    outputCostPerUnit: 0.000013252,
+    inputCostPerUnit: 0.0000045499,
+    outputCostPerUnit: 0.0000136497,
     unit: "token"
   },
-  createdAt: new Date("2024-08-13T13:00:00-04:00"), // August 13, 2024 1pm Eastern
+  createdAt: new Date("2024-09-09T13:00:00-04:00"), // August 13, 2024 1pm Eastern
   description:
-    "A mix indexed on the top models in the LMSYS leaderboard. Models with a higher score and more consistent votes will be selected more often.",
+    "Stay effortlessly current with the best general-purpose AI models. This mix automatically utilizes the top-ranked models from the LMSys Chatbot Arena's overall leaderboard, ensuring you always have access to the most capable AI for a wide range of tasks.",
   docsUrl: getDocsUrl("lmsys-overall"),
   name: "LMSys Overall Leaderboard",
   readme,
