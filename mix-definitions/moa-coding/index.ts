@@ -3,6 +3,7 @@ import type { MoaModelMixDefinition } from "../types"
 import readme from "./README.md"
 
 export default {
+  categories: ["coding"],
   cost: {
     inputCostPerUnit: 0.000006,
     outputCostPerUnit: 0.00002,
