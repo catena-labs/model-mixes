@@ -28,8 +28,7 @@ export default {
     inputCostPerUnit: 0.0000044522,
     outputCostPerUnit: 0.0000147751,
     unit: "token"
-  }
-,
+  },
   createdAt: new Date("2024-08-13T13:00:00-04:00"), // August 13, 2024 1pm Eastern
   description:
     "Don't worry about staying up-to-date with the latest coding model to use in your favorite IDE. This mix will use the top coding models ranked in the LMSys Chatbot Arena for the Coding category",

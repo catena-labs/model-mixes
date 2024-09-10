@@ -6,12 +6,12 @@ The best non-proprietary coding models according to the LMSys leaderboard. This 
 
 This mix produces responses from the following models:
 
-| Model | Weight % |
-|-------|----------|
-| "llama-3.1-405b-instruct" | 46.14% |
-| "mistral-large-2407" | 30.74% |
-| "llama-3.1-70b-instruct" | 18.92% |
-| "deepseek-v2-api-0628" | 4.20% |
+| Model                     | Weight % |
+| ------------------------- | -------- |
+| "llama-3.1-405b-instruct" | 46.14%   |
+| "mistral-large-2407"      | 30.74%   |
+| "llama-3.1-70b-instruct"  | 18.92%   |
+| "deepseek-v2-api-0628"    | 4.20%    |
 
-Update Frequency: Based on  (every few weeks)
+Update Frequency: Based on (every few weeks)
 Source: https://lmarena.ai/

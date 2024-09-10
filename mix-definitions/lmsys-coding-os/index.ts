@@ -25,7 +25,7 @@ export default {
     strategy: "weighted"
   },
   cost: {
-    inputCostPerUnit: 0.0000038790,
+    inputCostPerUnit: 0.000003879,
     outputCostPerUnit: 0.0000057661,
     unit: "token"
   },

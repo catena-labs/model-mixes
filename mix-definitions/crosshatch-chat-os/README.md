@@ -6,9 +6,9 @@ This specialized mix leverages our expertise in developing personal AI assistant
 
 This mix produces responses from the following models:
 
-| Model | Weight % |
-|-------|----------|
-| "hermes-3-llama-3.1-405b-fp8" | 49.95% |
-| "mistralai/large-2" | 22.80% |
-| "meta-llama/Meta-Llama-3.1-70B-Instruct" | 22.71% |
-| "deepseek-chat" | 4.54% |
+| Model                                    | Weight % |
+| ---------------------------------------- | -------- |
+| "hermes-3-llama-3.1-405b-fp8"            | 49.95%   |
+| "mistralai/large-2"                      | 22.80%   |
+| "meta-llama/Meta-Llama-3.1-70B-Instruct" | 22.71%   |
+| "deepseek-chat"                          | 4.54%    |
