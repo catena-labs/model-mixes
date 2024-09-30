@@ -10,11 +10,6 @@ export default {
       provider: "openai",
       temperature: 0.7
     },
-    bypassModel: {
-      model: "gpt-4o",
-      provider: "openai",
-      temperature: 0.7
-    },
     proposers: [
       {
         model: "claude-3-5-sonnet-20240620",

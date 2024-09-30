@@ -28,7 +28,6 @@ interface MoaModel {
 }
 
 interface MoaConfig {
-  bypassModel: MoaModel
   proposers: MoaModel[]
   aggregator: MoaModel
 }
