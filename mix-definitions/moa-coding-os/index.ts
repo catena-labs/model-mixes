@@ -28,8 +28,7 @@ export default {
     outputCostPerUnit: 0.00000963,
     unit: "token"
   },
-  createdAt: new Date("2024-10-01T13:00:00-04:00"),
-  // October 1, 2024 1pm Eastern
+  createdAt: new Date("2024-10-01T13:00:00-04:00"), // October 1, 2024 1pm Eastern
   description:
     "An open-source Mixture-of-Agents (MoA) synthesis mix optimized for coding tasks. This mix leverages two 'proposer' models, DeepSeek-2.5 and Mistral Large 2, with Llama 3.1 405B as the 'aggregation' model that synthesizes their outputs. This mix offers a powerful, cost-effective solution for complex programming challenges.",
   docsUrl: getDocsUrl("moa-coding-os"),
