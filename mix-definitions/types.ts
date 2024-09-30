@@ -21,6 +21,18 @@ interface FailoverRouterConfig {
 
 type RouterConfig = WeightedRouterConfig | FailoverRouterConfig
 
+interface MoaModel {
+  model: string
+  provider: string
+  temperature: number
+}
+
+interface MoaConfig {
+  bypassModel: MoaModel
+  proposers: MoaModel[]
+  aggregator: MoaModel
+}
+
 interface BaseModelMixDefinition {
   /**
    * The slug for the mix. Used as the `model` field in API requests
@@ -67,6 +79,7 @@ export interface IndexModelMixDefinition extends BaseModelMixDefinition {
 
 export interface MoaModelMixDefinition extends BaseModelMixDefinition {
   type: "moa"
+  config: MoaConfig
 }
 
 export type ModelMixDefinition = IndexModelMixDefinition | MoaModelMixDefinition
