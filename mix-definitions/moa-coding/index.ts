@@ -4,6 +4,35 @@ import readme from "./README.md"
 
 export default {
   categories: ["coding"],
+  config: {
+    aggregator: {
+      model: "gpt-4o-2024-08-06",
+      provider: "openai",
+      temperature: 0.7
+    },
+    bypassModel: {
+      model: "gpt-4o",
+      provider: "openai",
+      temperature: 0.7
+    },
+    proposers: [
+      {
+        model: "claude-3-5-sonnet-20240620",
+        provider: "anthropic",
+        temperature: 0.7
+      },
+      {
+        model: "gpt-4-turbo-2024-04-09",
+        provider: "openai",
+        temperature: 0.7
+      },
+      {
+        model: "gpt-4o-2024-08-06",
+        provider: "openai",
+        temperature: 0.7
+      }
+    ]
+  },
   cost: {
     inputCostPerUnit: 0.000006,
     outputCostPerUnit: 0.00002,
