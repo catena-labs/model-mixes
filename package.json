@@ -6,16 +6,15 @@
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "packageManager": "pnpm@9.11.0",
+  "packageManager": "bun@1.1.29",
   "scripts": {
-    "build": "pnpm clean && tsup ./mix-definitions/index.ts",
-    "check": "pnpm format:check && pnpm lint && pnpm type-check && pnpm test",
+    "build": "bun clean && tsup ./mix-definitions/index.ts",
+    "check": "bun format:check && bun lint && bun type-check && bun test",
     "clean": "git clean -xdf dist",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "eslint .",
-    "prepublishOnly": "pnpm check && pnpm build",
-    "test": "vitest",
+    "prepublishOnly": "bun check && bun build",
     "type-check": "tsc --noEmit --pretty"
   },
   "devDependencies": {
@@ -28,7 +27,6 @@
     "prettier": "^3.3.3",
     "tsup": "^8.2.4",
     "typescript": "^5.5.4",
-    "typescript-eslint": "^8.3.0",
-    "vitest": "^2.0.5"
+    "typescript-eslint": "^8.3.0"
   }
 }
