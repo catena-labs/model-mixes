@@ -1,5 +1,13 @@
 type Category = "general" | "coding"
 
+type Tag =
+  | "chat"
+  | "fast"
+  | "open-source"
+  | "programming"
+  | "reasoning"
+  | "translation"
+
 interface BaseRoute {
   model: string
   provider?: string
@@ -69,6 +77,10 @@ interface BaseModelMixDefinition {
     outputCostPerUnit: number
     unit: "token"
   }
+  /**
+   * Tags for identifying mix characteristics
+   */
+  tags?: Tag[]
 }
 
 export interface IndexModelMixDefinition extends BaseModelMixDefinition {
