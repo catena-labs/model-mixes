@@ -2,9 +2,9 @@
 
 Don't worry about staying up to date with the latest coding model to use in your favorite IDE. This mix is based on the top coding models ranked in the LMSys Chatbot Arena for the Coding category. The weight is a function of the Elo score adjusted for number of votes and variance. Models with more consistently high votes will be weighed more heavily.
 
-## Tags
+## Categories
 
-- 👩🏽‍💻 **Programming**
+- 👩🏽‍💻 **Coding**
 
 ## Composition
 

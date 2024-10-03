@@ -3,7 +3,7 @@ import type { IndexModelMixDefinition } from "../types"
 import readme from "./README.md"
 
 export default {
-  categories: ["coding"],
+  categories: ["coding", "open-source"],
   config: {
     routes: [
       {
@@ -37,6 +37,5 @@ export default {
   name: "Top Non-Commercial Coding Models",
   readme,
   slug: "lmsys-coding-os",
-  tags: ["open-source", "programming"],
   type: "index"
 } satisfies IndexModelMixDefinition

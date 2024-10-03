@@ -37,6 +37,5 @@ export default {
   name: "Top Coding Models",
   readme,
   slug: "lmsys-coding",
-  tags: ["programming"],
   type: "index"
 } satisfies IndexModelMixDefinition

@@ -6,8 +6,9 @@ The evaluation process involves assessing model responses across three main dime
 
 The top-performing models in the Spanish leaderboard are GPT-4o in first place, followed by Gemini 1.5 Pro (May 2024) in second, and GPT-4 Turbo Preview in third.
 
-## Tags
+## Categories
 
+- 💬 **General**
 - 🗣️ **Translation**
 
 ## Composition

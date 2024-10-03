@@ -3,7 +3,7 @@ import type { IndexModelMixDefinition } from "../types"
 import readme from "./README.md"
 
 export default {
-  categories: ["general"],
+  categories: ["general", "open-source"],
   config: {
     routes: [
       {
@@ -37,6 +37,5 @@ export default {
   name: "Crosshatch Chat",
   readme,
   slug: "crosshatch-chat-os",
-  tags: ["chat", "open-source"],
   type: "index"
 } satisfies IndexModelMixDefinition

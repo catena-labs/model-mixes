@@ -3,7 +3,7 @@ import type { IndexModelMixDefinition } from "../types"
 import readme from "./README.md"
 
 export default {
-  categories: ["general"],
+  categories: ["general", "reasoning"],
   config: {
     routes: [
       {
@@ -41,6 +41,5 @@ export default {
   name: "Top Chat Models",
   readme,
   slug: "lmsys-multiturn",
-  tags: ["chat", "reasoning"],
   type: "index"
 } satisfies IndexModelMixDefinition

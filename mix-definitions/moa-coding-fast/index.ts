@@ -3,7 +3,7 @@ import type { MoaModelMixDefinition } from "../types"
 import readme from "./README.md"
 
 export default {
-  categories: ["coding"],
+  categories: ["coding", "fast"],
   config: {
     aggregator: {
       model: "gpt-4o-2024-08-06",
@@ -40,6 +40,5 @@ export default {
   name: "Fast Coding Mixture of Agents",
   readme,
   slug: "moa-coding-fast",
-  tags: ["fast", "programming"],
   type: "moa"
 } satisfies MoaModelMixDefinition

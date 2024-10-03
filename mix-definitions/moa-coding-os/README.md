@@ -4,10 +4,10 @@ This is a synthesis mix that uses a mixture-of-agents architecture to provide hi
 
 To learn more about mixture of agents, check out our Github repo [here](https://github.com/catena-labs/moa-llm).
 
-## Tags
+## Categories
 
+- 👩🏽‍💻 **Coding**
 - 🌐 **Open-Source**
-- 👩🏽‍💻 **Programming**
 - 🧠 **Reasoning**
 
 ## Quality

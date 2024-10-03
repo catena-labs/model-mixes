@@ -3,7 +3,7 @@ import type { IndexModelMixDefinition } from "../types"
 import readme from "./README.md"
 
 export default {
-  categories: ["general"],
+  categories: ["general", "translation"],
   config: {
     routes: [
       {
@@ -33,6 +33,5 @@ export default {
   name: "Spanish Mix (Scale.ai Leaderboard)",
   readme,
   slug: "seal-spanish",
-  tags: ["translation"],
   type: "index"
 } satisfies IndexModelMixDefinition

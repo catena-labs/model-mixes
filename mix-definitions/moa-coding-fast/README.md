@@ -4,10 +4,10 @@ This is an optimized version of our Coding Mixture of Agents (MoA) designed for 
 
 With 68% classification accuracy and a bias towards the MoA when uncertain, this mix optimizes for speed without compromising on quality for challenging problems.
 
-## Tags
+## Categories
 
+- 👩🏽‍💻 **Coding**
 - 🏃🏻 **Fast**
-- 👩🏽‍💻 **Programming**
 
 ## How it Works
 

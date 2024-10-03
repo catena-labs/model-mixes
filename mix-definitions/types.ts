@@ -1,10 +1,8 @@
-type Category = "general" | "coding"
-
-type Tag =
-  | "chat"
+type Category =
+  | "coding"
   | "fast"
+  | "general"
   | "open-source"
-  | "programming"
   | "reasoning"
   | "translation"
 
@@ -77,10 +75,6 @@ interface BaseModelMixDefinition {
     outputCostPerUnit: number
     unit: "token"
   }
-  /**
-   * Tags for identifying mix characteristics
-   */
-  tags?: Tag[]
 }
 
 export interface IndexModelMixDefinition extends BaseModelMixDefinition {
