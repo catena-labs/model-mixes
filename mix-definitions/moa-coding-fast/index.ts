@@ -40,5 +40,6 @@ export default {
   name: "Fast Coding Mixture of Agents",
   readme,
   slug: "moa-coding-fast",
+  tags: ["fast", "programming"],
   type: "moa"
 } satisfies MoaModelMixDefinition

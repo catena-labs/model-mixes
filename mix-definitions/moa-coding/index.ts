@@ -40,5 +40,6 @@ export default {
   name: "Coding Mixture of Agents",
   readme,
   slug: "moa-coding",
+  tags: ["programming", "reasoning"],
   type: "moa"
 } satisfies MoaModelMixDefinition

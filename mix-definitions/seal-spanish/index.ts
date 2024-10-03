@@ -33,5 +33,6 @@ export default {
   name: "Spanish Mix (Scale.ai Leaderboard)",
   readme,
   slug: "seal-spanish",
+  tags: ["translation"],
   type: "index"
 } satisfies IndexModelMixDefinition

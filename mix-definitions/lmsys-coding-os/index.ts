@@ -37,5 +37,6 @@ export default {
   name: "Top Non-Commercial Coding Models",
   readme,
   slug: "lmsys-coding-os",
+  tags: ["open-source", "programming"],
   type: "index"
 } satisfies IndexModelMixDefinition

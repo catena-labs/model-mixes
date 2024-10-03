@@ -37,5 +37,6 @@ export default {
   name: "LMSys Overall Leaderboard",
   readme,
   slug: "lmsys-overall",
+  tags: ["chat"],
   type: "index"
 } satisfies IndexModelMixDefinition

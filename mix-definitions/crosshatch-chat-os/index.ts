@@ -37,5 +37,6 @@ export default {
   name: "Crosshatch Chat",
   readme,
   slug: "crosshatch-chat-os",
+  tags: ["chat", "open-source"],
   type: "index"
 } satisfies IndexModelMixDefinition

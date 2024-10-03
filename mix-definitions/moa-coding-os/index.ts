@@ -35,5 +35,6 @@ export default {
   name: "Open-Source Coding Mixture of Agents",
   readme,
   slug: "moa-coding-os",
+  tags: ["open-source", "programming", "reasoning"],
   type: "moa"
 } satisfies MoaModelMixDefinition

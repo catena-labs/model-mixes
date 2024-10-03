@@ -41,5 +41,6 @@ export default {
   name: "Top Chat Models",
   readme,
   slug: "lmsys-multiturn",
+  tags: ["chat", "reasoning"],
   type: "index"
 } satisfies IndexModelMixDefinition
