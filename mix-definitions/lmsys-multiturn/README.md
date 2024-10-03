@@ -1,6 +1,11 @@
-## Top Chat Models (LMSys)
+# Top Chat Models (LMSys)
 
 Optimized for extended conversations, this mix utilizes top-performing models in multi-turn interactions. It leverages the LMSys Chatbot Arena rankings for conversations with two or more turns, ensuring high-quality responses in longer dialogues. The weight is a function of the Elo score adjusted for number of votes and variance. Models with more consistently high votes will be weighed more heavily.
+
+## Tags
+
+- 💬 **Chat**
+- 🧠 **Reasoning**
 
 ## Composition
 

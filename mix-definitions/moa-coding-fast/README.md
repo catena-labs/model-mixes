@@ -2,6 +2,13 @@
 
 This is an optimized version of our Coding Mixture of Agents (MoA) designed for faster response times while maintaining high-quality outputs for a wide range of coding tasks.
 
+With 68% classification accuracy and a bias towards the MoA when uncertain, this mix optimizes for speed without compromising on quality for challenging problems.
+
+## Tags
+
+- 🏃🏻 **Fast**
+- 👩🏽‍💻 **Programming**
+
 ## How it Works
 
 1. **Task Classification**: Your coding request is first processed by GPT-4o-mini, which classifies the task difficulty.
