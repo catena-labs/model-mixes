@@ -8,6 +8,7 @@ With 68% classification accuracy and a bias towards the MoA when uncertain, this
 
 - 👩🏽‍💻 **Coding**
 - 🏃🏻 **Fast**
+- 🦾 **Mixture of Agents**
 
 ## How it Works
 

@@ -7,6 +7,7 @@ To learn more about mixture of agents, check out our Github repo [here](https://
 ## Categories
 
 - 👩🏽‍💻 **Coding**
+- 🦾 **Mixture of Agents**
 - 🌐 **Open-Source**
 - 🧠 **Reasoning**
 

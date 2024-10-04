@@ -5,6 +5,7 @@ This mix is based on the top models ranked in the LMSys Chatbot Arena for the Ov
 ## Categories
 
 - 💬 **General**
+- 🏆 **Leaderboard**
 
 ## Composition
 

@@ -3,7 +3,7 @@ import type { IndexModelMixDefinition } from "../types"
 import readme from "./README.md"
 
 export default {
-  categories: ["general", "translation"],
+  categories: ["general", "multilingual"],
   config: {
     routes: [
       {

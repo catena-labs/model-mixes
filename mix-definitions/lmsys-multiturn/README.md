@@ -5,6 +5,7 @@ Optimized for extended conversations, this mix utilizes top-performing models in
 ## Categories
 
 - 💬 **General**
+- 🏆 **Leaderboard**
 - 🧠 **Reasoning**
 
 ## Composition

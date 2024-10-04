@@ -3,7 +3,7 @@ import type { MoaModelMixDefinition } from "../types"
 import readme from "./README.md"
 
 export default {
-  categories: ["coding", "open-source", "reasoning"],
+  categories: ["coding", "mixture-of-agents", "open-source", "reasoning"],
   config: {
     aggregator: {
       model: "meta-llama/Meta-Llama-3.1-405B-Instruct",

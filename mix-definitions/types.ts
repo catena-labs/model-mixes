@@ -2,9 +2,11 @@ export type Category =
   | "coding"
   | "fast"
   | "general"
+  | "leaderboard"
+  | "mixture-of-agents"
+  | "multilingual"
   | "open-source"
   | "reasoning"
-  | "translation"
 
 interface BaseRoute {
   model: string

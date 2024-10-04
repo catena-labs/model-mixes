@@ -5,6 +5,7 @@ The best non-proprietary coding models according to the LMSys leaderboard. This 
 ## Categories
 
 - 👩🏽‍💻 **Coding**
+- 🏆 **Leaderboard**
 - 🌐 **Open-Source**
 
 ## Composition

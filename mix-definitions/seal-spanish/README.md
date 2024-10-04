@@ -9,7 +9,7 @@ The top-performing models in the Spanish leaderboard are GPT-4o in first place, 
 ## Categories
 
 - 💬 **General**
-- 🗣️ **Translation**
+- 🗣️ **Multilingual**
 
 ## Composition
 

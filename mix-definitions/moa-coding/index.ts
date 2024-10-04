@@ -3,7 +3,7 @@ import type { MoaModelMixDefinition } from "../types"
 import readme from "./README.md"
 
 export default {
-  categories: ["coding", "reasoning"],
+  categories: ["coding", "mixture-of-agents", "reasoning"],
   config: {
     aggregator: {
       model: "gpt-4o-2024-08-06",

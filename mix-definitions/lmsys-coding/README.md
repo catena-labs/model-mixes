@@ -5,6 +5,7 @@ Don't worry about staying up to date with the latest coding model to use in your
 ## Categories
 
 - 👩🏽‍💻 **Coding**
+- 🏆 **Leaderboard**
 
 ## Composition
 
