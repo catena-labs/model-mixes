@@ -6,12 +6,13 @@ Don't worry about staying up to date with the latest coding model to use in your
 
 This mix produces responses from the following models:
 
-| Model Name                 | Weight % |
-| -------------------------- | -------- |
-| chatgpt-4o-latest          | 22.32%   |
-| claude-3-5-sonnet-20240620 | 26.61%   |
-| gpt-4o-2024-05-13          | 30.58%   |
-| gemini-1.5-pro-exp-0827    | 20.49%   |
+| Model | Weight % |
+|-------|----------|
+| "o1-mini" | 35.73% |
+| "o1-preview" | 25.43% |
+| "chatgpt-4o-latest-20240903" | 19.76% |
+| "chatgpt-4o-latest-20240808" | 15.83% |
+| "claude-3-5-sonnet-20240620" | 3.25% |
 
 Update Frequency: Based on LMSys (every few weeks)
-Source: https://lmarena.ai/
+Source: <https://lmarena.ai/>
