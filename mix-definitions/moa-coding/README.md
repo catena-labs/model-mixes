@@ -1,8 +1,14 @@
-## Coding Mixture of Agents
+# Coding Mixture of Agents
 
 This is a synthesis mix that uses a mixture-of-agents architecture to give you the highest quality answers. Your request is sent to two "proposer" models (Claude 3.5 Sonnet and GPT-4 Turbo). The responses from these models are passed to an "aggregation" model (GPT-4o) which synthesizes the answers, corrects issues, and returns code.
 
 To learn more about mixture of agents, check out our Github repo [here](https://github.com/catena-labs/moa).
+
+## Categories
+
+- 👩🏽‍💻 **Coding**
+- 🦾 **Mixture of Agents**
+- 🧠 **Reasoning**
 
 ## Quality
 
