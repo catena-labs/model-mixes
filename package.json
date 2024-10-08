@@ -14,7 +14,7 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "eslint .",
-    "prepublishOnly": "bun check && bun build",
+    "prepublishOnly": "bun check && bun run build",
     "type-check": "tsc --noEmit --pretty"
   },
   "devDependencies": {
