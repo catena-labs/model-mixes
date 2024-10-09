@@ -12,12 +12,12 @@ The best non-proprietary coding models according to the LMSys leaderboard. This 
 
 This mix produces responses from the following models:
 
-| Model | Weight % |
-|-------|----------|
-| "meta-llama/Meta-Llama-3.1-405B-Instruct" | 61.59% |
-| "deepseek-chat" | 24.16% |
-| "Qwen/Qwen2.5-72B-Instruct" | 10.93% |
-| "mistralai/large-2" | 3.32% |
+| Model                                     | Weight % |
+| ----------------------------------------- | -------- |
+| "meta-llama/Meta-Llama-3.1-405B-Instruct" | 61.59%   |
+| "deepseek-chat"                           | 24.16%   |
+| "Qwen/Qwen2.5-72B-Instruct"               | 10.93%   |
+| "mistralai/large-2"                       | 3.32%    |
 
 Update Frequency: Based on LMSys (every few weeks)
 

@@ -13,12 +13,12 @@ Optimized for extended conversations, this mix utilizes top-performing models in
 
 This mix produces responses from the following models:
 
-| Model | Weight % |
-|-------|----------|
-| "meta-llama/Meta-Llama-3.1-405B-Instruct" | 76.37% |
-| "mistralai/large-2" | 11.17% |
-| "meta-llama/Meta-Llama-3.1-70B-Instruct" | 8.20% |
-| "Qwen/Qwen2.5-72B-Instruct" | 4.27% |
+| Model                                     | Weight % |
+| ----------------------------------------- | -------- |
+| "meta-llama/Meta-Llama-3.1-405B-Instruct" | 76.37%   |
+| "mistralai/large-2"                       | 11.17%   |
+| "meta-llama/Meta-Llama-3.1-70B-Instruct"  | 8.20%    |
+| "Qwen/Qwen2.5-72B-Instruct"               | 4.27%    |
 
 Update Frequency: Based on LMSys
 Source: <https://lmarena.ai/>

@@ -12,12 +12,12 @@ This mix is based on the top open-source models ranked in the LMSys Chatbot Aren
 
 This mix produces responses from the following models:
 
-| Model | Weight % |
-|-------|----------|
-| "meta-llama/Meta-Llama-3.1-405B-Instruct" | 70.54% |
-| "Qwen/Qwen2.5-72B-Instruct" | 13.17% |
-| "mistralai/large-2" | 12.75% |
-| "deepseek-chat" | 3.55% |
+| Model                                     | Weight % |
+| ----------------------------------------- | -------- |
+| "meta-llama/Meta-Llama-3.1-405B-Instruct" | 70.54%   |
+| "Qwen/Qwen2.5-72B-Instruct"               | 13.17%   |
+| "mistralai/large-2"                       | 12.75%   |
+| "deepseek-chat"                           | 3.55%    |
 
 Update Frequency: Based on LMSys (every few weeks)
 Source: <https://lmarena.ai/>
