@@ -1,6 +1,17 @@
-## LMSys French (LMSys Leaderboard)
+# LMSys French
 
 This mix picks the highest-ranked model for French prompts, based on LMSys French Leaderboard.
+
+## Categories
+
+- 💬 **General**
+- 🏆 **Leaderboard**
+- 🌐 **Open-Source**
+- 🗣️ **Multilingual**
+
+## Composition
+
+This mix produces responses from the following models:
 
 | Model | Weight % |
 |-------|----------|

@@ -8,38 +8,38 @@ export default {
     strategy: "weighted",
     routes: [
       {
-        model: "chatgpt-4o-latest-20240903",
-        weight: 0.4406
+        model: "mistralai/large-2",
+        weight: 0.3926
       },
       {
-        model: "o1-preview",
-        weight: 0.2616
+        model: "meta-llama/Meta-Llama-3.1-405B-Instruct",
+        weight: 0.3255
       },
       {
-        model: "gemini-1.5-pro-exp-0801",
-        weight: 0.1456
+        model: "google/gemma-2-27b-it",
+        weight: 0.135
       },
       {
-        model: "gemini-1.5-pro-exp-0827",
-        weight: 0.1121
+        model: "deepseek-chat",
+        weight: 0.1112
       },
       {
-        model: "chatgpt-4o-latest-20240808",
-        weight: 0.0401
+        model: "Qwen/Qwen2.5-72B-Instruct",
+        weight: 0.0357
       }
     ]
   },
   cost: {
-    inputCostPerUnit: 0.0000073738,
-    outputCostPerUnit: 0.0000261236,
+    inputCostPerUnit: 0.0000025221,
+    outputCostPerUnit: 0.0000049407,
     unit: "token"
   },
   createdAt: new Date("2024-08-13T13:00:00-04:00"),
   description:
     "A mix that picks the highest-ranked model for Japanese prompts, based on LMSYS Japanese Leaderboard.",
-  docsUrl: getDocsUrl("lmsys-japanese"),
-  name: "LMSys Japanese (LMSys Leaderboard)",
+  docsUrl: getDocsUrl("lmsys-japanese-os"),
+  name: "LMSys Japanese (Open-Source)",
   readme,
-  slug: "lmsys-japanese",
+  slug: "lmsys-japanese-os",
   type: "index"
 } satisfies IndexModelMixDefinition

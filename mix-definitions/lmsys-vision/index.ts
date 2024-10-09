@@ -3,7 +3,7 @@ import type { IndexModelMixDefinition } from "../types"
 import readme from "./README.md"
 
 export default {
-  categories: ["multilingual"],
+  categories: ["leaderboard"],
   config: {
     strategy: "weighted",
     routes: [
@@ -34,7 +34,7 @@ export default {
   description:
     "A mix that picks the highest-ranked model for prompts with image attachments, based on LMSYS Vision Leaderboard.",
   docsUrl: getDocsUrl("lmsys-vision"),
-  name: "LMSys Vision (LMSys Leaderboard)",
+  name: "LMSys Vision",
   readme,
   slug: "lmsys-vision",
   type: "index"

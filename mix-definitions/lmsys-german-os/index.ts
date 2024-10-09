@@ -8,38 +8,30 @@ export default {
     strategy: "weighted",
     routes: [
       {
-        model: "chatgpt-4o-latest-20240808",
-        weight: 0.2914
+        model: "mistralai/large-2",
+        weight: 0.315
       },
       {
-        model: "o1-preview",
-        weight: 0.2681
+        model: "meta-llama/Meta-Llama-3.1-405B-Instruct",
+        weight: 0.5489
       },
       {
-        model: "chatgpt-4o-latest-20240903",
-        weight: 0.2515
-      },
-      {
-        model: "gemini-1.5-pro-exp-0827",
-        weight: 0.1624
-      },
-      {
-        model: "o1-mini",
-        weight: 0.0265
+        model: "Qwen/Qwen2.5-72B-Instruct",
+        weight: 0.0286
       }
     ]
   },
   cost: {
-    inputCostPerUnit: 0.0000075322,
-    outputCostPerUnit: 0.0000267798,
+    inputCostPerUnit: 0.0000032594,
+    outputCostPerUnit: 0.0000057901,
     unit: "token"
   },
   createdAt: new Date("2024-08-13T13:00:00-04:00"),
   description:
     "A mix that picks the highest-ranked model for German prompts, based on LMSYS German Leaderboard.",
-  docsUrl: getDocsUrl("lmsys-german"),
-  name: "LMSys German",
+  docsUrl: getDocsUrl("lmsys-german-os"),
+  name: "LMSys German (Open-Source)",
   readme,
-  slug: "lmsys-german",
+  slug: "lmsys-german-os",
   type: "index"
 } satisfies IndexModelMixDefinition

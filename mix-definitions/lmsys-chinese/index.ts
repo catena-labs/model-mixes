@@ -3,7 +3,7 @@ import type { IndexModelMixDefinition } from "../types"
 import readme from "./README.md"
 
 export default {
-  categories: ["multilingual"],
+  categories: ["multilingual", "leaderboard"],
   config: {
     strategy: "weighted",
     routes: [
@@ -38,7 +38,7 @@ export default {
   description:
     "A mix that picks the highest-ranked model for Chinese prompts, based on LMSYS Chinese Leaderboard.",
   docsUrl: getDocsUrl("lmsys-chinese"),
-  name: "LMsys Chinese (LMSys Leaderboard)",
+  name: "LMSys Chinese",
   readme,
   slug: "lmsys-chinese",
   type: "index"

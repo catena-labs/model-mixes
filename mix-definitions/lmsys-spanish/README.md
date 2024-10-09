@@ -1,6 +1,17 @@
-## LMSys Spanish (LMSys Leaderboard)
+# LMSys Spanish
 
 This mix picks the highest-ranked model for Spanish prompts, based on LMSys Spanish Leaderboard.
+
+## Categories
+
+- 💬 **General**
+- 🏆 **Leaderboard**
+- 🌐 **Open-Source**
+- 🗣️ **Multilingual**
+
+## Composition
+
+This mix produces responses from the following models:
 
 | Model | Weight % |
 |-------|----------|

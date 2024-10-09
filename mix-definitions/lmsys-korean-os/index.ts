@@ -8,38 +8,30 @@ export default {
     strategy: "weighted",
     routes: [
       {
-        model: "gemini-1.5-pro-api-0409-preview",
-        weight: 0.4244
+        model: "Qwen/Qwen2.5-72B-Instruct",
+        weight: 0.3693
       },
       {
-        model: "chatgpt-4o-latest-20240903",
-        weight: 0.3218
+        model: "google/gemma-2-27b-it",
+        weight: 0.2795
       },
       {
-        model: "chatgpt-4o-latest-20240808",
-        weight: 0.1708
-      },
-      {
-        model: "gemini-1.5-pro-exp-0827",
-        weight: 0.0444
-      },
-      {
-        model: "gemini-1.5-pro-exp-0801",
-        weight: 0.0386
+        model: "meta-llama/Meta-Llama-3.1-405B-Instruct",
+        weight: 0.3287
       }
     ]
   },
   cost: {
-    inputCostPerUnit: 0.0000043237,
-    outputCostPerUnit: 0.0000129711,
+    inputCostPerUnit: 0.0000017602,
+    outputCostPerUnit: 0.0000017602,
     unit: "token"
   },
   createdAt: new Date("2024-08-13T13:00:00-04:00"),
   description:
     "A mix that picks the highest-ranked model for Korean prompts, based on LMSYS German Leaderboard.",
-  docsUrl: getDocsUrl("lmsys-korean"),
-  name: "LMSys Korean (LMSys Leaderboard)",
+  docsUrl: getDocsUrl("lmsys-korean-os"),
+  name: "LMSys Korean (Open-Source)",
   readme,
-  slug: "lmsys-korean",
+  slug: "lmsys-korean-os",
   type: "index"
 } satisfies IndexModelMixDefinition

@@ -1,6 +1,16 @@
-## LMSys Korean (LMSys Leaderboard)
+# LMSys Korean
 
 This mix picks the highest-ranked model for Korean prompts, based on LMSys Korean Leaderboard.
+
+## Categories
+
+- 💬 **General**
+- 🏆 **Leaderboard**
+- 🗣️ **Multilingual**
+
+## Composition
+
+This mix produces responses from the following models:
 
 | Model | Weight % |
 |-------|----------|

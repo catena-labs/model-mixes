@@ -1,6 +1,16 @@
-## LMSys Japanese (LMSys Leaderboard)
+# LMSys Japanese
 
 This mix picks the highest-ranked model for Japanese prompts, based on LMSys Japanese Leaderboard.
+
+## Categories
+
+- 💬 **General**
+- 🏆 **Leaderboard**
+- 🗣️ **Multilingual**
+
+## Composition
+
+This mix produces responses from the following models:
 
 | Model | Weight % |
 |-------|----------|

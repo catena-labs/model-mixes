@@ -1,6 +1,15 @@
-## LMSys Vision (LMSys Leaderboard)
+# LMSys Vision
 
 This mix picks the highest-ranked model for Vision prompts, based on LMSys Vision Leaderboard.
+
+## Categories
+
+- 💬 **General**
+- 🏆 **Leaderboard**
+
+## Composition
+
+This mix produces responses from the following models:
 
 | Model | Weight % |
 |-------|----------|
