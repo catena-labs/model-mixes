@@ -7,24 +7,20 @@ export default {
   config: {
     routes: [
       {
-        model: "o1-preview",
-        weight: 0.3333
+        model: "meta-llama/Meta-Llama-3.1-405B-Instruct",
+        weight: 0.7637
       },
       {
-        model: "chatgpt-4o-latest-20240903",
-        weight: 0.3269
+        model: "mistralai/large-2",
+        weight: 0.1117
       },
       {
-        model: "chatgpt-4o-latest-20240808",
-        weight: 0.2278
+        model: "meta-llama/Meta-Llama-3.1-70B-Instruct",
+        weight: 0.082
       },
       {
-        model: "claude-3-5-sonnet-20240620",
-        weight: 0.0817
-      },
-      {
-        model: "o1-mini",
-        weight: 0.0303
+        model: "Qwen/Qwen2.5-72B-Instruct",
+        weight: 0.0427
       }
     ],
     strategy: "weighted"
@@ -37,9 +33,9 @@ export default {
   createdAt: new Date("2024-09-09T13:00:00-04:00"),
   description:
     "Optimized for extended conversations, this mix utilizes top-performing models in multi-turn interactions. It leverages the LMSys Chatbot Arena rankings for conversations with two or more turns, ensuring high-quality responses in longer dialogues.",
-  docsUrl: getDocsUrl("lmsys-multiturn"),
-  name: "Top Chat Models",
+  docsUrl: getDocsUrl("lmsys-multiturn-os"),
+  name: "Top Chat Models (Open-Source)",
   readme,
-  slug: "lmsys-multiturn",
+  slug: "lmsys-multiturn-os",
   type: "index"
 } satisfies IndexModelMixDefinition

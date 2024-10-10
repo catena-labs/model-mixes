@@ -8,26 +8,26 @@ export default {
     routes: [
       {
         model: "meta-llama/Meta-Llama-3.1-405B-Instruct",
-        weight: 0.4307
-      },
-      {
-        model: "mistralai/large-2",
-        weight: 0.2869
-      },
-      {
-        model: "meta-llama/Meta-Llama-3.1-70B-Instruct",
-        weight: 0.1766
+        weight: 0.6159
       },
       {
         model: "deepseek-chat",
-        weight: 0.0392
+        weight: 0.2416
+      },
+      {
+        model: "Qwen/Qwen2.5-72B-Instruct",
+        weight: 0.1093
+      },
+      {
+        model: "mistralai/large-2",
+        weight: 0.0332
       }
     ],
     strategy: "weighted"
   },
   cost: {
-    inputCostPerUnit: 0.000003879,
-    outputCostPerUnit: 0.0000057661,
+    inputCostPerUnit: 0.0000024353,
+    outputCostPerUnit: 0.0000026727,
     unit: "token"
   },
   createdAt: new Date("2024-08-13T13:00:00-04:00"), // August 13, 2024 1pm Eastern
