@@ -5,7 +5,6 @@ import readme from "./README.md"
 export default {
   categories: ["multilingual", "leaderboard"],
   config: {
-    strategy: "weighted",
     routes: [
       {
         model: "chatgpt-4o-latest-20240903",
@@ -27,16 +26,17 @@ export default {
         model: "o1-preview",
         weight: 0.0268
       }
-    ]
+    ],
+    strategy: "weighted"
   },
   cost: {
     inputCostPerUnit: 0.0000046897,
     outputCostPerUnit: 0.0000144789,
     unit: "token"
   },
-  createdAt: new Date("2024-08-13T13:00:00-04:00"),
+  createdAt: new Date("2024-10-10T13:00:00-04:00"),
   description:
-    "A mix that picks the highest-ranked model for Russian prompts, based on LMSYS German Leaderboard.",
+    "A mix that picks the highest-ranked model for Russian prompts, based on LMSYS Russian Leaderboard.",
   docsUrl: getDocsUrl("lmsys-russian"),
   name: "LMSys Russian",
   readme,

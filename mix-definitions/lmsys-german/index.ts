@@ -5,7 +5,6 @@ import readme from "./README.md"
 export default {
   categories: ["multilingual", "leaderboard"],
   config: {
-    strategy: "weighted",
     routes: [
       {
         model: "chatgpt-4o-latest-20240808",
@@ -27,14 +26,15 @@ export default {
         model: "o1-mini",
         weight: 0.0265
       }
-    ]
+    ],
+    strategy: "weighted"
   },
   cost: {
     inputCostPerUnit: 0.0000075322,
     outputCostPerUnit: 0.0000267798,
     unit: "token"
   },
-  createdAt: new Date("2024-08-13T13:00:00-04:00"),
+  createdAt: new Date("2024-10-10T13:00:00-04:00"),
   description:
     "A mix that picks the highest-ranked model for German prompts, based on LMSYS German Leaderboard.",
   docsUrl: getDocsUrl("lmsys-german"),

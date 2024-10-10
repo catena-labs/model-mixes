@@ -3,9 +3,8 @@ import type { IndexModelMixDefinition } from "../types"
 import readme from "./README.md"
 
 export default {
-  categories: ["multilingual", "leaderboard"],
+  categories: ["multilingual", "leaderboard", "open-source"],
   config: {
-    strategy: "weighted",
     routes: [
       {
         model: "deepseek-chat",
@@ -23,14 +22,15 @@ export default {
         model: "meta-llama/Meta-Llama-3.1-405B-Instruct",
         weight: 0.0311
       }
-    ]
+    ],
+    strategy: "weighted"
   },
   cost: {
     inputCostPerUnit: 0.0000011897,
     outputCostPerUnit: 0.0000026045,
     unit: "token"
   },
-  createdAt: new Date("2024-08-13T13:00:00-04:00"),
+  createdAt: new Date("2024-10-10T13:00:00-04:00"),
   description:
     "A mix that picks the highest-ranked open-source model for Chinese prompts, based on LMSYS Chinese Leaderboard.",
   docsUrl: getDocsUrl("lmsys-chinese-os"),

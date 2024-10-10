@@ -5,7 +5,6 @@ import readme from "./README.md"
 export default {
   categories: ["multilingual", "leaderboard"],
   config: {
-    strategy: "weighted",
     routes: [
       {
         model: "gemini-1.5-pro-api-0409-preview",
@@ -27,16 +26,17 @@ export default {
         model: "gemini-1.5-pro-exp-0801",
         weight: 0.0386
       }
-    ]
+    ],
+    strategy: "weighted"
   },
   cost: {
     inputCostPerUnit: 0.0000043237,
     outputCostPerUnit: 0.0000129711,
     unit: "token"
   },
-  createdAt: new Date("2024-08-13T13:00:00-04:00"),
+  createdAt: new Date("2024-10-10T13:00:00-04:00"),
   description:
-    "A mix that picks the highest-ranked model for Korean prompts, based on LMSYS German Leaderboard.",
+    "A mix that picks the highest-ranked model for Korean prompts, based on LMSYS Korean Leaderboard.",
   docsUrl: getDocsUrl("lmsys-korean"),
   name: "LMSys Korean (LMSys Leaderboard)",
   readme,

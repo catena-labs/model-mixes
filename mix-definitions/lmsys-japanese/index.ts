@@ -5,7 +5,6 @@ import readme from "./README.md"
 export default {
   categories: ["multilingual", "leaderboard"],
   config: {
-    strategy: "weighted",
     routes: [
       {
         model: "chatgpt-4o-latest-20240903",
@@ -27,14 +26,15 @@ export default {
         model: "chatgpt-4o-latest-20240808",
         weight: 0.0401
       }
-    ]
+    ],
+    strategy: "weighted"
   },
   cost: {
     inputCostPerUnit: 0.0000073738,
     outputCostPerUnit: 0.0000261236,
     unit: "token"
   },
-  createdAt: new Date("2024-08-13T13:00:00-04:00"),
+  createdAt: new Date("2024-10-10T13:00:00-04:00"),
   description:
     "A mix that picks the highest-ranked model for Japanese prompts, based on LMSYS Japanese Leaderboard.",
   docsUrl: getDocsUrl("lmsys-japanese"),

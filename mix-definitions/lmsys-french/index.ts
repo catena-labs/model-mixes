@@ -5,7 +5,6 @@ import readme from "./README.md"
 export default {
   categories: ["multilingual", "leaderboard"],
   config: {
-    strategy: "weighted",
     routes: [
       {
         model: "gemini-1.5-pro-exp-0801",
@@ -27,16 +26,17 @@ export default {
         model: "o1-preview",
         weight: 0.0362
       }
-    ]
+    ],
+    strategy: "weighted"
   },
   cost: {
     inputCostPerUnit: 0.0000047678,
     outputCostPerUnit: 0.0000148567,
     unit: "token"
   },
-  createdAt: new Date("2024-08-13T13:00:00-04:00"),
+  createdAt: new Date("2024-10-10T13:00:00-04:00"),
   description:
-    "A mix that picks the highest-ranked model for French prompts, based on LMSYS German Leaderboard.",
+    "A mix that picks the highest-ranked model for French prompts, based on LMSYS French Leaderboard.",
   docsUrl: getDocsUrl("lmsys-french"),
   name: "LMSys French",
   readme,

@@ -6,7 +6,6 @@ This mix picks the highest-ranked model for Spanish prompts, based on LMSys Span
 
 - 💬 **General**
 - 🏆 **Leaderboard**
-- 🌐 **Open-Source**
 - 🗣️ **Multilingual**
 
 ## Composition

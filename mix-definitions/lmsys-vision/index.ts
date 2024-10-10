@@ -5,7 +5,6 @@ import readme from "./README.md"
 export default {
   categories: ["leaderboard"],
   config: {
-    strategy: "weighted",
     routes: [
       {
         model: "chatgpt-4o-latest-20240903",
@@ -23,14 +22,15 @@ export default {
         model: "gpt-4o-2024-05-13",
         weight: 0.0482
       }
-    ]
+    ],
+    strategy: "weighted"
   },
   cost: {
     inputCostPerUnit: 0.000004936,
     outputCostPerUnit: 0.0000148134,
     unit: "token"
   },
-  createdAt: new Date("2024-08-13T13:00:00-04:00"),
+  createdAt: new Date("2024-10-10T13:00:00-04:00"),
   description:
     "A mix that picks the highest-ranked model for prompts with image attachments, based on LMSYS Vision Leaderboard.",
   docsUrl: getDocsUrl("lmsys-vision"),
