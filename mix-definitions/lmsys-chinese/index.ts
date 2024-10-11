@@ -7,31 +7,31 @@ export default {
   config: {
     routes: [
       {
-        model: "chatgpt-4o-latest-20240903",
-        weight: 0.3652
+        model: "chatgpt-4o-latest",
+        weight: 0.4936
       },
       {
         model: "gemini-1.5-pro-exp-0827",
-        weight: 0.2304
+        weight: 0.2028
       },
       {
-        model: "o1-preview",
-        weight: 0.2126
+        model: "gemini-1.5-pro-002",
+        weight: 0.1593
       },
       {
-        model: "chatgpt-4o-latest-20240808",
-        weight: 0.1585
+        model: "gemini-1.5-pro-exp-0801",
+        weight: 0.1129
       },
       {
-        model: "o1-mini",
-        weight: 0.0332
+        model: "gemini-1.5-flash-exp-0827",
+        weight: 0.0313
       }
     ],
     strategy: "weighted"
   },
   cost: {
-    inputCostPerUnit: 0.0000068487,
-    outputCostPerUnit: 0.0000239013,
+    inputCostPerUnit: 0.0000042158,
+    outputCostPerUnit: 0.0000126493,
     unit: "token"
   },
   createdAt: new Date("2024-10-10T13:00:00-04:00"),

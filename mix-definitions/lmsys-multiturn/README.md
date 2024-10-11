@@ -14,11 +14,12 @@ This mix produces responses from the following models:
 
 | Model                        | Weight % |
 | ---------------------------- | -------- |
-| "o1-preview"                 | 33.33%   |
-| "chatgpt-4o-latest-20240903" | 32.69%   |
-| "chatgpt-4o-latest-20240808" | 22.78%   |
-| "claude-3-5-sonnet-20240620" | 8.17%    |
-| "o1-mini"                    | 3.03%    |
+| "chatgpt-4o-latest"          | 53.92%   |
+| "gpt-4o-2024-05-13"          | 13.39%   |
+| "claude-3-5-sonnet-20240620" | 12.67%   |
+| "gemini-1.5-pro-exp-0827"    | 9.09%    |
+| "gemini-1.5-pro-exp-0801"    | 8.13%    |
+| "gemini-1.5-pro-002"         | 2.80%    |
 
 Update Frequency: Based on LMSys
 Source: <https://lmarena.ai/>
