@@ -13,10 +13,10 @@ This mix picks the highest-ranked model for French prompts, based on LMSys Frenc
 
 This mix produces responses from the following models:
 
-| Model                        | Weight % |
-| ---------------------------- | -------- |
-| "gemini-1.5-pro-exp-0801"    | 39.77%   |
-| "chatgpt-4o-latest-20240903" | 28.61%   |
-| "chatgpt-4o-latest-20240808" | 21.96%   |
-| "gemini-1.5-pro-exp-0827"    | 6.04%    |
-| "o1-preview"                 | 3.62%    |
+| Model                     | Weight % |
+| ------------------------- | -------- |
+| "chatgpt-4o-latest"       | 44.01%   |
+| "gemini-1.5-pro-exp-0801" | 22.81%   |
+| "gemini-1.5-pro-exp-0827" | 20.25%   |
+| "gpt-4o-2024-05-13"       | 10.65%   |
+| "gemini-pro"              | 2.28%    |

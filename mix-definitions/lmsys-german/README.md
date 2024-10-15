@@ -12,10 +12,11 @@ This mix picks the highest-ranked model for German prompts, based on LMSys Germa
 
 This mix produces responses from the following models:
 
-| Model                        | Weight % |
-| ---------------------------- | -------- |
-| "chatgpt-4o-latest-20240808" | 29.14%   |
-| "o1-preview"                 | 26.81%   |
-| "chatgpt-4o-latest-20240903" | 25.15%   |
-| "gemini-1.5-pro-exp-0827"    | 16.24%   |
-| "o1-mini"                    | 2.65%    |
+| Model                     | Weight % |
+| ------------------------- | -------- |
+| "chatgpt-4o-latest"       | 52.90%   |
+| "gemini-1.5-pro-exp-0827" | 18.33%   |
+| "gemini-1.5-pro-exp-0801" | 11.18%   |
+| "gpt-4o-2024-05-13"       | 10.70%   |
+| "gemini-1.5-pro-002"      | 4.48%    |
+| "gpt-4o-mini"             | 2.41%    |
