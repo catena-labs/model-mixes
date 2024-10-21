@@ -24,6 +24,7 @@ import moaCoding from "./moa-coding"
 import moaCodingFast from "./moa-coding-fast"
 import moaCodingOs from "./moa-coding-os"
 import sealSpanish from "./seal-spanish"
+import moaChat from "./moa-chat"
 import type { ModelMixDefinition } from "./types"
 
 export * from "./types"
@@ -50,6 +51,7 @@ export const modelMixes: Record<string, ModelMixDefinition> = {
   lmsysSpanish,
   lmsysSpanishOs,
   lmsysVision,
+  moaChat,
   moaCoding,
   moaCodingFast,
   moaCodingOs,
