@@ -7,7 +7,7 @@ export default {
   config: {
     routes: [
       {
-        model: "hermes-3-llama-3.1-405b-fp8",
+        model: "NousResearch/Hermes-3-Llama-3.1-405B-Turbo",
         weight: 0.4587
       },
       {
