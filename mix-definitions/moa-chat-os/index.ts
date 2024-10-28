@@ -30,8 +30,8 @@ export default {
   },
   createdAt: new Date("2024-10-21T13:00:00-04:00"), // August 26, 2024 1pm Eastern
   description:
-    "A Mixture-of-Agents (MoA) synthesis mix optimized for fast and balanced chat usecases. This mix leverages multiple 'proposer' models, including Llama 3.1 70B on Groq and DeepSeek v2.5, with an 'aggregation' model that synthesizes their outputs.",
-  docsUrl: getDocsUrl("moa-chat"),
+    "A Mixture-of-Agents (MoA) synthesis mix optimized for fast and balanced chat use cases. This mix leverages multiple 'proposer' models, including Llama 3.1 70B on Groq and DeepSeek v2.5, with an 'aggregation' model that synthesizes their outputs.",
+  docsUrl: getDocsUrl("moa-chat-os"),
   name: "Chat Mixture of Agents",
   readme,
   slug: "moa-chat",
