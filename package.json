@@ -7,6 +7,9 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "packageManager": "bun@1.1.29",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "bun clean && tsup ./mix-definitions/index.ts",
     "check": "bun format:check && bun lint && bun type-check && bun test",
