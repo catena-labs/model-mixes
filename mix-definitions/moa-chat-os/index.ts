@@ -34,6 +34,6 @@ export default {
   docsUrl: getDocsUrl("moa-chat-os"),
   name: "Chat Mixture of Agents",
   readme,
-  slug: "moa-chat",
+  slug: "moa-chat-os",
   type: "moa"
 } satisfies MoaModelMixDefinition
