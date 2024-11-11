@@ -26,10 +26,12 @@ import moaCodingOs from "./moa-coding-os"
 import sealSpanish from "./seal-spanish"
 import moaChatOs from "./moa-chat-os"
 import type { ModelMixDefinition } from "./types"
+import crosshatchClaudeSonnet from "./crosshatch-claude-sonnet"
 
 export * from "./types"
 export const modelMixes: Record<string, ModelMixDefinition> = {
   crosshatchChatOs,
+  crosshatchClaudeSonnet,
   lmsysChinese,
   lmsysChineseOs,
   lmsysCoding,
