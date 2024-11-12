@@ -7,6 +7,7 @@ export type Category =
   | "multilingual"
   | "open-source"
   | "reasoning"
+  | "super-mix"
 
 interface BaseRoute {
   model: string
