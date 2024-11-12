@@ -14,7 +14,7 @@ This mix provides seamless access to Claude 3.5 Sonnet by combining Anthropic an
 
 This mix produces responses from the following models in failover order:
 
-| Model                                    | Provider   | Priority |
-| ---------------------------------------- | ---------- | -------- |
-| "claude-3-5-sonnet-20241022"             | Anthropic  | Primary  |
-| "claude-3-5-sonnet-20241022"             | Bedrock    | Backup   |
+| Model                        | Provider  | Priority |
+| ---------------------------- | --------- | -------- |
+| "claude-3-5-sonnet-20241022" | Anthropic | Primary  |
+| "claude-3-5-sonnet-20241022" | Bedrock   | Backup   |
