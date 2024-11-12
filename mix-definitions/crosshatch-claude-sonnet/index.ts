@@ -3,7 +3,8 @@ import type { IndexModelMixDefinition } from "../types"
 import readme from "./README.md"
 
 export default {
-  categories: ["general"],
+  categories: ["general", "coding", "multilingual", "reasoning", "super-mix"],
+
   config: {
     routes: [
       {
@@ -22,10 +23,11 @@ export default {
     outputCostPerUnit: 0.000018,
     unit: "token"
   },
-  createdAt: new Date("2024-11-01T13:00:00-04:00"),
-  description: "forget santa clause, say hello to sonnet claude",
+  createdAt: new Date("2024-11-12T13:00:00-04:00"),
+  description:
+    "A mix combining Claude 3.5 Sonnet that seamlessly combines providers so you don't have to worry about speed, outages, and rate limits.",
   docsUrl: getDocsUrl("crosshatch-claude-sonnet"),
-  name: "Crosshatch Claude Sonnet",
+  name: "Claude 3.5 Sonnet Super Mix",
   readme,
   slug: "crosshatch-claude-sonnet",
   type: "index"
