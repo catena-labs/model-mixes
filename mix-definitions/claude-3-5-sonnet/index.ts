@@ -26,9 +26,9 @@ export default {
   createdAt: new Date("2024-11-12T13:00:00-04:00"),
   description:
     "A mix combining Claude 3.5 Sonnet that seamlessly combines providers so you don't have to worry about speed, outages, and rate limits.",
-  docsUrl: getDocsUrl("crosshatch-claude-sonnet"),
+  docsUrl: getDocsUrl("claude-3-5-sonnet"),
   name: "Claude 3.5 Sonnet Super Mix",
   readme,
-  slug: "crosshatch-claude-sonnet",
+  slug: "claude-3-5-sonnet",
   type: "index"
 } satisfies IndexModelMixDefinition
