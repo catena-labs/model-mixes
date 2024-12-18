@@ -4,6 +4,10 @@ The Model Mix definitions used by [Crosshatch](https://crosshatch.app)
 
 ## Model Mixes
 
+### Super Mixes 🦸‍♂️
+
+- [Super Sonnet Mix](./mix-definitions/super-sonnet-mix)
+
 ### Coding 👩🏽‍💻
 
 - [LMSys Coding Leaderboard Mix](./mix-definitions/lmsys-coding)
