@@ -1,6 +1,6 @@
 # Super Sonnet Mix
 
-Super Sonnet Mix enhances Claude 3.5 with integrated tools and multi-provider support, making it more powerful and reliable for production deployments. It addresses common challenges teams face when scaling their LLM applications, including rate limiting, provider management, and tool integration.
+Super Sonnet Mix enhances Anthropic’s Sonnet 3.5 with integrated tools and multi-provider support, making it even more powerful and reliable for production deployments. It addresses common challenges teams face when scaling their LLM applications, including rate limiting, provider management, and tool integration.
 
 ## Categories
 
