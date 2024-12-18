@@ -47,6 +47,10 @@ interface BaseModelMixDefinition {
    */
   slug: string
   /**
+   * Aliases for this mix
+   */
+  aliases?: string[]
+  /**
    * The name for the mix
    */
   name: string
@@ -58,6 +62,10 @@ interface BaseModelMixDefinition {
    * A list of categories that apply to this model
    */
   categories: Category[]
+  /**
+   * The recommended API to use for this mix, if any
+   */
+  recommendedApi?: "openai" | "anthropic"
   /**
    * When this version of the mix was created
    */

@@ -24,6 +24,7 @@ import moaCoding from "./moa-coding"
 import moaCodingFast from "./moa-coding-fast"
 import moaCodingOs from "./moa-coding-os"
 import sealSpanish from "./seal-spanish"
+import superSonnetMix from "./super-sonnet-mix"
 import moaChatOs from "./moa-chat-os"
 import type { ModelMixDefinition } from "./types"
 
@@ -55,5 +56,6 @@ export const modelMixes: Record<string, ModelMixDefinition> = {
   moaCoding,
   moaCodingFast,
   moaCodingOs,
-  sealSpanish
+  sealSpanish,
+  superSonnetMix
 }
